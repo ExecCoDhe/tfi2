@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  <style>
+    section {
+    background: linear-gradient(to right, #0052D4, #4364F7, #6FB1FC); /* Blue gradient */;
+   }
+  </style>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg" style="background-color: #0070B8;">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+            <a class="navbar-brand col-lg-3 me-0" href="./Home-page.html">
+                <img src="./assets/images/logo.png" alt="Left-Box" height="60px" width="auto">
+            </a>
+            <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="./Home-page.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" href="./Our-services.html">Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="./About-us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" href="./Contact-Us.html">Contact Us</a>
+                </li>
+            </ul>
+            <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+                <button type="button" class="btn btn-outline-light">Contact Us</button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+  <!-- OUR SERVICES SECTION -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold newsreader-ourServices" style="color: white; font-size: 5rem;">Our Services</h2>
+
+    <!-- Navigation Tabs -->
+    <ul class="nav nav-pills justify-content-center mb-4" id="servicesTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active border" id="process-tab" data-bs-toggle="tab" data-bs-target="#process" type="button" role="tab" aria-controls="process" aria-selected="true" style="color: white;">
+          Our Process
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link border" id="approach-tab" data-bs-toggle="tab" data-bs-target="#approach" type="button" role="tab" aria-controls="approach" aria-selected="false" style="color: white;">
+          Flexible Approach
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link border" id="network-tab" data-bs-toggle="tab" data-bs-target="#network" type="button" role="tab" aria-controls="network" aria-selected="false" style="color: white;">
+          Candidate Network
+        </button>
+      </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content" id="servicesTabContent">
+      
+      <!-- OUR PROCESS TAB -->
+      <div class="tab-pane fade show active" id="process" role="tabpanel" aria-labelledby="process-tab">
+        <div class="row g-4">
+          
+          <!-- Process Step 1 -->
+          <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+              <h5 class="fw-bold">
+                ✅ Preliminary Interviews
+              </h5>
+              <p>Initial screening to assess qualifications, experience, and motivation.</p>
+            </div>
+          </div>
+
+          <!-- Process Step 2 -->
+          <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+              <h5 class="fw-bold">
+                ✅ Background Verification
+              </h5>
+              <p>Identity, address, academic qualifications, overseas police records, and employment & education history are meticulously checked.</p>
+            </div>
+          </div>
+
+          <!-- Process Step 3 -->
+          <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+              <h5 class="fw-bold">
+                ✅ Technical & Soft Skills Evaluation
+              </h5>
+              <p>Ensuring strong subject knowledge plus communication & adaptability skills.</p>
+            </div>
+          </div>
+
+          <!-- Process Step 4 -->
+          <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+              <h5 class="fw-bold">
+                ✅ Cultural & Professional Integration Assessment
+              </h5>
+              <p>Evaluating each candidate’s readiness for international education systems.</p>
+            </div>
+          </div>
+
+          <!-- Process Step 5 -->
+          <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+              <h5 class="fw-bold">
+                ✅ Application & Documentation Processing
+              </h5>
+              <p>Handling paperwork, forwarding application materials, certified documents, and evaluation remarks.</p>
+            </div>
+          </div>
+
+          <!-- Process Step 6 -->
+          <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+              <h5 class="fw-bold">
+                ✅ Reference Checks
+              </h5>
+              <p>Arranging and authenticating references to validate credibility.</p>
+            </div>
+          </div>
+
+          <!-- Process Step 7 -->
+          <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+              <h5 class="fw-bold">
+                ✅ Interview Coordination
+              </h5>
+              <p>Managing logistics for all necessary interviews between candidates and agencies.</p>
+            </div>
+          </div>
+
+          <!-- Process Step 8 -->
+          <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+              <h5 class="fw-bold">
+                ✅ Visa & Relocation Assistance
+              </h5>
+              <p>Providing guidance for a smooth visa process and relocation.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- FLEXIBLE APPROACH TAB -->
+      <div class="tab-pane fade" id="approach" role="tabpanel" aria-labelledby="approach-tab">
+        <div class="card shadow-sm p-4">
+          <h5 class="fw-bold">Flexible & Adaptable Approach</h5>
+          <p>While we have a proven process, we understand each agency has unique needs. We are open to tailoring our approach to accommodate additional procedures that would benefit your hiring process.</p>
+        </div>
+      </div>
+
+      <!-- CANDIDATE NETWORK TAB -->
+      <div class="tab-pane fade" id="network" role="tabpanel" aria-labelledby="network-tab">
+        <div class="card shadow-sm p-4">
+          <h5 class="fw-bold">Our Candidate Network</h5>
+          <p>Candidates are our most valuable asset, bringing the expertise, skills, and potential needed to meet recruitment demands. We are fortunate to have a database of experienced and qualified teachers, made possible by our network of educational professionals.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Bootstrap 5 JS (Include if not already added in your project) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+  
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">©TFI</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/company/teachers-from-india/ "><img src="./assets/Svgs/linkedin.svg" width="24" height="24"></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://wa.me/917972689045"><img src="./assets/Svgs/whatsapp.svg" width="24" height="24"></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="mailto:dhedhanaggarwall@gmail.com"><img src="./assets/Svgs/mail.svg" width="24" height="24"></a></li>
+    </ul>
+  </footer>
+</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
